@@ -1,27 +1,16 @@
-<h1>Public::Homes#top</h1>
-<p>Find me in app/views/public/homes/top.html.erb</p>
-
-<div class="swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-       <%= image_tag 'nature-1.jpg' %>
-    </div>
-    <div class="swiper-slide">
-       <%= image_tag 'nature-2.jpg' %>
-    </div>
-    <div class="swiper-slide">
-       <%= image_tag 'nature-3.jpg' %>
-    </div>
-    <div class="swiper-slide">
-       <%= image_tag 'nature-4.jpg' %>
-    </div>
-    <div class="swiper-slide">
-       <%= image_tag 'nature-5.jpg' %>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="top-main">
+        <div class="top-message">
+          <hr>
+          <h1>Memory Clips</h1>
+          <p>思い出を共有しよう</p>
+          <hr>
+          <button class="fixed_btn"><i class="fas fa-pencil-alt"></i><br>Clipする</button>
+          <%= render 'swiper' %>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- ページネーションの要素 -->
-  <div class="swiper-pagination"></div>
-  <!-- ナビゲーションボタン （前、次） -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
 </div>

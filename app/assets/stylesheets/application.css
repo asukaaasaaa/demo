@@ -13,3 +13,88 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebe5d9
+}
+
+/*header*/
+.navbar {
+  background-color: #14b09b;
+}
+.navbar span {
+  color: #ebe5d9;
+}
+
+.navbar-brand {
+  padding: 5px;
+  border: 2px solid #ebe5d9;
+  color: #ebe5d9;
+}
+
+header li {
+  margin-right: 15px;
+  color: #ebe5d9;
+}
+
+/*top*/
+.top-main {
+  margin: 50px 0 ;
+  width: 100%;
+}
+
+.top-message {
+ text-align: center;
+ color: #0359ae;
+}
+
+.top-message h1 {
+  font-size: 70px;
+}
+
+.fixed_btn
+{
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  color: #fff;
+  background-color: #14b09b;
+  border: none;
+}
+.fixed_btn:hover {
+  color: #fff;
+  background-color: #0359ae;;
+}
+
+/*スライドショー*/
+.swiper {
+  width: 100%;
+  height: 600px;
+}
+
+:root {
+  --swiper-navigation-color: #14b09b;
+  --swiper-pagination-color: #14b09b;
+}
+.sized {
+  width: 80%;
+  height: 80%;
+  border-radius: 35px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #cc8a56;
+  color: white;
+}
