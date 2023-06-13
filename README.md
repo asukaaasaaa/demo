@@ -1,24 +1,48 @@
-# README
+# サイト名
+ズボラcooker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## サイト概要
+簡単で工程の少ない料理のレシピを投稿するSNSです。
 
-* Ruby version
+## サイトテーマ
+誰かのレシピを検索したり、自分のレシピを投稿したりできるSNS
 
-* System dependencies
+## テーマを選んだ理由
+仕事から帰ってきて家族の晩御飯を作る時、簡単・すぐにできる料理でないと作る気にならないことが多かった。
+そうした時に簡単で工程が少ないレシピばかりを共有できれば面白いと思いました。
 
-* Configuration
+##ターゲットユーザー
+社会人・料理をする人
 
-* Database creation
+## 主な利用シーン
+時間がない・疲れている時にすぐできるレシピを検索・投稿して共有する
 
-* Database initialization
+## 使用している言語フレームワークのバージョン
+ - ruby 3.1.2
+ - Rails 6.1.7.3
+ - Bootstrap v4.5.3
 
-* How to run the test suite
+## 実装した機能
+* ユーザー
+ - ゲストログイン
+ - 会員登録、ログイン・ログアウト、退会
+ - 会員情報の編集
+ - 投稿機能
+ - 投稿・ユーザー検索
+ - 投稿へのいいね（一覧）
+ - 投稿へのコメント
+ - フォロー機能
+ - 他人の投稿を自分のタイムラインで共有
 
-* Services (job queues, cache servers, search engines, etc.)
+* 管理者
+ - 会員一覧
+ - ユーザーの利用停止
 
-* Deployment instructions
+## 使用方法
+* 管理者ページのログインについて
+  - 初期段階での管理者ページのログインに必要なメールアドレス及びパスワードは下記です。
+    - メールアドレス：
+    - パスワード：
 
-* ...
+## 作成者アカウント
